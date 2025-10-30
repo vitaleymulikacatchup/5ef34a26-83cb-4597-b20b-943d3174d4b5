@@ -37,7 +37,7 @@ export default function Home() {
       <div id="hero" data-section="hero">
         <HeroSplit
           title="HIIIefewfwefI"
-          description="Experience the taste of traditional wood-fired pizzas made with the finest ingredients, crafted with love and served fresh daily."
+          description="LEwefewfewf"
           tag="Est. 1985"
           tagIcon={Pizza}
           buttons={[
