@@ -24,7 +24,7 @@ export default function Home() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Lesgoooo"
+          brandName="Hi bro"
           navItems={[
             { name: "Menu", id: "product" },
             { name: "About", id: "about" },
@@ -36,7 +36,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Okay nevermind"
+          title="Subhadeep"
           description="Lets go"
           tag="Est. 1985"
           tagIcon={Pizza}
