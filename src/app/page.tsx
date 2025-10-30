@@ -24,7 +24,7 @@ export default function Home() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
-          brandName="Hi bro"
+          brandName="YYYYYYYYYY"
           navItems={[
             { name: "Menu", id: "product" },
             { name: "About", id: "about" },
