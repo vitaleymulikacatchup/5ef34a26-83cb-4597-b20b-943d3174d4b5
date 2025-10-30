@@ -11,6 +11,10 @@ import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import { ChefHat, Clock, Flame, Heart, Leaf, MapPin, Pizza } from "lucide-react";
 
+const assetMap = [
+  // Add any asset mappings here if needed
+];
+
 export default function Home() {
   return (
     <ThemeProvider
@@ -54,7 +58,7 @@ export default function Home() {
             "We use only the finest imported ingredients and our signature wood-fired oven to create pizzas that transport you straight to Italy with every bite."
           ]}
           buttons={[
-            { text: "Learn More", href: "about" }
+            { text: "See Our Kitchen", href: "about" }
           ]}
           showBorder={true}
         />
