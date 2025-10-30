@@ -36,7 +36,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="IDK"
+          title="Mayeb"
           description="Lets go"
           tag="Est. 1985"
           tagIcon={Pizza}
