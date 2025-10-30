@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -133,8 +133,7 @@ export default function Home() {
               company: "Taste Explorer",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/12935085/pexels-photo-12935085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Maria Rodriguez",
-              quote: "The best authentic Italian pizza I've ever had outside of Italy. The wood-fired oven makes all the difference!"
+              imageAlt: "Portrait of Maria Rodriguez"
             },
             {
               id: "2",
@@ -143,8 +142,34 @@ export default function Home() {
               company: "Downtown",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/6969962/pexels-photo-6969962.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of James Wilson",
-              quote: "Tony's has been our family's go-to pizza place for years. Consistently amazing quality and service."
+              imageAlt: "Portrait of James Wilson"
+            },
+            {
+              id: "3",
+              name: "The Johnson Family",
+              role: "Regular Customers",
+              company: "Since 1995",
+              rating: 5,
+              imageSrc: "https://images.pexels.com/photos/5638675/pexels-photo-5638675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageAlt: "The Johnson family enjoying pizza"
+            },
+            {
+              id: "4",
+              name: "Sarah & Mike",
+              role: "Date Night",
+              company: "Couple",
+              rating: 5,
+              imageSrc: "https://images.pexels.com/photos/6437328/pexels-photo-6437328.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageAlt: "Young couple on pizza date"
+            },
+            {
+              id: "5",
+              name: "David Chen",
+              role: "Business Owner",
+              company: "Tech Startup",
+              rating: 5,
+              imageSrc: "https://images.pexels.com/photos/6914457/pexels-photo-6914457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageAlt: "Business person enjoying lunch"
             }
           ]}
         />
